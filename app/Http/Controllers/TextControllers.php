@@ -17,8 +17,8 @@ class TextControllers extends Controller
         #Run Scirpt Python
         // system("testScript.py");
         #Run Script Sh
-        system($_SERVER['DOCUMENT_ROOT'].'/TTS_DEMO/kh_new_seg/HTS_Demo/runDemo.sh');
-        // system("script.sh");
+        // system($_SERVER['DOCUMENT_ROOT'].'/TTS_DEMO/kh_new_seg/HTS_Demo/runDemo.sh');
+        system("script.sh");
         $data = ['pathVoice'=>'http://103.16.63.233:8027/TTS_DEMO/kh_new_seg/HTS_Demo/KH_WAV_RESULT.wav'];
         return response()->json($data);
     }

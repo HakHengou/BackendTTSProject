@@ -84,7 +84,6 @@
                     Laravel
                 </div>
                 <audio controls>
-                
                     <source src="/medias/vivok.mp3" type="audio/mpeg">
                 </audio>
                 <audio controls>
